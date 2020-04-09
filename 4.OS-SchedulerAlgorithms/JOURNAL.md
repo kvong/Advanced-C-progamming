@@ -1,5 +1,7 @@
 **CS4760:**	    Operating Systems
+
 **Project 4:** 	OS Simulator with Scheduling Algorithm
+
 **Author:**		Khanh Vong
 
 ### Instruction for compiling:
