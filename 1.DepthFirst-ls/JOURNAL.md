@@ -14,9 +14,7 @@
     * This might not be a programming problem.
         1. ls -L will show the information to the file which the link references
         2. When performing ls -lL manually on a link pointing to a file it yields the following:
-        
-            ......* ?????????? ? ?    ?           ?            ? link_2
-
+            `......* ?????????? ? ?    ?           ?            ? link_2`
     * Also the text color(light blue in my case) of link pointed to a directory is different to the link text color(black-red) that is pointed to a file.
     * Most likely this error is caused brom a broken/bad link.
 
