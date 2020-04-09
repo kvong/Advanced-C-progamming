@@ -1,6 +1,6 @@
-### CS4760:		Operating Systems
-### Author:		Khanh Vong
-### Project 6:	OS Simulator for Mem. Management with FIFO and LRU replacement policy.
+**CS4760:**		Operating Systems
+**Author:**		Khanh Vong
+**Project 6:**	OS Simulator for Mem. Management with FIFO and LRU replacement policy.
 
 -------------------------------------------------------------------------------
 

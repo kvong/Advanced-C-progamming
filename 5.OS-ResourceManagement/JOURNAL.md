@@ -1,6 +1,6 @@
-### CS4760:		Operating Systems
-### Project 5:	OS Simulator with Deadlock Avoidance(DLA) Algorithm
-### Author:		Khanh Vong
+**CS4760:**	    Operating Systems
+**Project 5:**	OS Simulator with Deadlock Avoidance(DLA) Algorithm
+**Author:**	    Khanh Vong
 
 -------------------------------------------------------------------------------
 
