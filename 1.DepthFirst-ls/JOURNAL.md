@@ -10,7 +10,7 @@
 * On successful run a perror message will display the run result at the end.
 
 ### Known bug(s):
-* Following a symbolic link that is pointed to a file will cause an error saying "No such file or directory".
+* Following a symbolic link that is pointed to a file will cause an error saying `No such file or directory`.
     * This might not be a programming problem.
         1. ls -L will show the information to the file which the link references
         2. When performing ls -lL manually on a link pointing to a file it yields the following:
