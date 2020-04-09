@@ -15,8 +15,7 @@
 
 ### Usage:
 1. `./oss` will run OSS with FIFO replacement policy (DEFAULT)
-
-    Options:
+    - Options:
         -f: Run with FIFO replacement policy.
         -l: Run with LRU replacement policy.
         -h: Usage message.

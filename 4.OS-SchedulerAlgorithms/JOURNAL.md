@@ -15,16 +15,19 @@
 - Scheduling Algorithm:
     1. All process starts at the highest priority queue.
     2. A process is moved 1 level lower in priority if:
-        A. The process wait time exceeds a specific time threshold.
-        B. The process wait time exceeds the average wait time of a constant k times the average wait time of the processes 1 tier lower in priority.
+        1. The process wait time exceeds a specific time threshold.
+        2. The process wait time exceeds the average wait time of a constant k times the average wait time of the processes 1 tier lower in priority.
     3. If the process is rescheduled at the same priority a few times then it will be moved to a lower priority. (My personal touch I added to make things interesting)
 
 - Random behavior simulated in child processes:
     - Every time the child is shedule it will roll a number:
 
         0 = Child process will terminate (10% of the time)
+
         1 = Child process will run for entire time quantum (30% of the time)
+
         2 = Child process will wait for an event that will last s time (30% of the time)
+
         3 = Child process will run for a bit an get interupted (30% of the time)
 
 ### Personal Notes:
@@ -34,16 +37,16 @@
 - Added a 3rd condition for enqueuing to keep a process from having the same priority for too long.
 - I set nanosecond bound to be 1000 because its hard to check if clock is updating like its supposed to with million and billions.
 
-Challenges:
+### Challenges:
 1. When I was implementing the round robin sheduling I decided not to use a queue to my processes. Instead I used an array. This worked fine until I had to implement priorities for each process. To convert what I had queues took a good chunk of my time. This could have
 been avoided if I only implement the queue instead of the array.
 2. Once I has multi-layered round robing sheduling, it was difficult to change to a different scheduling algorithm. I couldn't figure out how average wait time was supposed to be calculated.  It took a while to realize that calculating average wait time only needed to be done when we need to enqueue. This made my job much easier as I was trying to update the average at every tik of the clock.
 
-Maximizing throughput:
-	- I found that processes are executed quicker when they move down in priority regularly.
-	- If I set alpha = 0, beta = 0, and the wait threshold to 0:0 then every process will move down in priority after executing (except maybe the first process with wait time 0:0). This causes the number of dequeue to be highest on the lowest priority and lowest on the highest priority.
+### Maximizing throughput:
+- I found that processes are executed quicker when they move down in priority regularly.
+- If I set alpha = 0, beta = 0, and the wait threshold to 0:0 then every process will move down in priority after executing (except maybe the first process with wait time 0:0). This causes the number of dequeue to be highest on the lowest priority and lowest on the highest priority.
 
-Implementation:
+### Implementation:
 - Prerequisites:
     - 3 Queues (high to low in priority).
     - 2 Message queues:
@@ -78,7 +81,7 @@ Implementation:
             - Send message back to parent, informing parent of action.
             - Exit loop when random action is to terminate.
 
-
+### Git Log
 
 Author: khanh vong <vong@hoare7.cs.umsl.edu>
 Date:   Thu Oct 24 00:34:07 2019 -0500

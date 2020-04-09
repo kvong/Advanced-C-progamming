@@ -22,11 +22,13 @@ oss {{-s child\_processes}{-l logfile}{-t time}{-p process\_cap}} {-h}
 
 ### For testing:
 - To terminate from simulated clock.
-    - ./oss -s 1
+
+    `./oss -s 1`
 - To terminate from maximum created.
-    - ./oss
+
+    `./oss`
 - To terminate from real clock.
-    - Add "while(1);" in child.c or anywhere in master.c after the signal has been set up.
+    Add `while(1);` in child.c or anywhere in master.c after the signal has been set up.
 
 
 ### GIT LOG:
