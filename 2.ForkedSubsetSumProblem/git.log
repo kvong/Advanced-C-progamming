@@ -1,0 +1,65 @@
+commit ce4b58baded8796ddbe633b6dc1d2a114cd5a97a
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Sat Sep 14 13:34:45 2019 -0500
+
+    perror messages added
+
+commit 7d0a78c013ea0086cb05861645a256918ae6e0dc
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Fri Sep 13 00:00:58 2019 -0500
+
+    Accomadations to new project requirement made
+
+commit 97a37c1263f7781e487d5ee93f84b63dc6ab8640
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Wed Sep 11 23:50:32 2019 -0500
+
+    File pointer close when child is terminated
+
+commit 5283273eb547eb966a0403adfecd0ecc611f1e10
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Wed Sep 11 20:44:21 2019 -0500
+
+    Interrupt timer implemented for master and child processes
+
+commit 4bc1174aa3ab017d808188622af59626a5d2507c
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Wed Sep 11 18:15:16 2019 -0500
+
+    Fork properly writes to file
+
+commit 98f0eddbcaa124d2ecc0b0b905625dc1da344fee
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Wed Sep 11 15:51:54 2019 -0500
+
+    SSsum function + SSsum-value-finder function added
+
+commit 92fc4c1b40dadd432b38cbf8fcf1fc91080f5751
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Wed Sep 11 00:24:38 2019 -0500
+
+    Converter function from token array to int array added
+
+commit 873648c001e0537365e8a0c10966f5b631eda31c
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Tue Sep 10 18:52:45 2019 -0500
+
+    Timed kill signal implemented
+
+commit 14b2766993eebf503e01134733623b700f589164
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Mon Sep 9 22:41:15 2019 -0500
+
+    Fork implemented: no wait, no timer
+
+commit 7933f8e2f0a5bc6cf9dde06e3cc255aa378bcaf3
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Mon Sep 9 14:43:36 2019 -0500
+
+    Dynamic file reader and tokenizer implemented
+
+commit 632222e13bc5377a4e016013736b3ed8916489bb
+Author: khanh vong <vong@hoare7.cs.umsl.edu>
+Date:   Mon Sep 9 12:42:35 2019 -0500
+
+    First commit
