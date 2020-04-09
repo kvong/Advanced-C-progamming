@@ -1,5 +1,5 @@
 ### How to compile:
-	1. cd to vong.2/
+	1. cd to 2.ForkedSubsetSumProblem/
 	2. run 'make'
 
 ### Constants:

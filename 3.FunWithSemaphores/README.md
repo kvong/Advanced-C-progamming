@@ -1,5 +1,5 @@
 ### How to compile:
-	- Run 'make' in vong.3 directory.
+	- Run 'make' in directory.
 
 ### Description: OSS(master.c) will launch s processes which will execute dostuff(child.c).
 OSS is to keeps *s* processes active at any given time during its execution. In OSS, theres a simulated clock. dostuff will set a termination time, if time has passed then terminate.  At the termination of a child, OSS will write to a log file indicating the child has finished executing. At the same time the OSS will launch a new child to maintain *s* processes at all time. Because there are many child processes, semaphores and a critical section must be introduce so that no process can modify the shared memory while another is accessing it.
