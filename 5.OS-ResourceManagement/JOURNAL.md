@@ -15,10 +15,10 @@
 
 ### How to run:
 
-	1. `./oss` will run OSS with shareable resources.
-		- Note: Using shareable memory means that DLA will ignore the resource. By doing a partial DLA we cannot guarantee that there will be no deadlock. We can however plan ahead and set up a recovery process (see 'How deadlocks are handled' for more info).
-	2. `./oss x` will run OSS with no shareable resources. Where x is any argument.
-		- Note: This will have no deadlocks because DLA is applied to all resources.
+1. `./oss` will run OSS with shareable resources.
+    - Note: Using shareable memory means that DLA will ignore the resource. By doing a partial DLA we cannot guarantee that there will be no deadlock. We can however plan ahead and set up a recovery process (see 'How deadlocks are handled' for more info).
+2. `./oss x` will run OSS with no shareable resources. Where x is any argument.
+    - Note: This will have no deadlocks because DLA is applied to all resources.
 
 -------------------------------------------------------------------------------
 
