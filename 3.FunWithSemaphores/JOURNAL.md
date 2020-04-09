@@ -6,6 +6,7 @@ OSS is to keeps *s* processes active at any given time during its execution. In 
 
 ### USAGE: 
 oss {{-s child\_processes}{-l logfile}{-t time}{-p process\_cap}} {-h}
+
     -s: Number of child processes active at all time (default 5).
 	-l: File to output child's termination result (default 'oss.log').
 	-t: Seconds until OSS will automatically terminate (default 5).
@@ -14,8 +15,7 @@ oss {{-s child\_processes}{-l logfile}{-t time}{-p process\_cap}} {-h}
 ### Some explainations:
 - Only 96 lines written to the log file:
     - By default, 100 process will be allowed to launch. Right before the 100 process are created, the OSS will start its termination process. At that point only 95 processes had run but 100 process has been created. However, after the parent has finished processing the terminated child's information the parent will "empty" the message box, which lets a waiting process into the critical section to execute. Thus, at the end of termination 96 processes will have executed.
-        - Given t = total processes created, s = number of process active at any time,
-			n = total processes executed.
+        - Given t = total processes created, s = number of process active at any time, n = total processes executed.
 					n = t - (s - 1)
 	- Occasional starvation of other processes:
 		- No scheduling algorithm was implemented for this assignment. So, some occasions there are noticable starvations of some child process(es).
