@@ -11,8 +11,8 @@ Timed interrupt for children = 2 seconds
 2. From that table, create a mirrored table of 0s, 1s, and 2s
     - Where elements with the value 2 will sum to the number we are looking for.
  Resouces:
- [](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
- [](https://www.youtube.com/watch?v=s6FhG--P7z0)
+ ![Code examples](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
+ ![Youtube walkthrough](https://www.youtube.com/watch?v=s6FhG--P7z0)
   
 
 ### Some known loose ends:
@@ -37,4 +37,4 @@ Timed interrupt for children = 2 seconds
         - `int_array(char**)` is supposed to go through all the elements of the tokens and convert it into integer using `atoi()`.
             - When ever the token size is over 80, the for loop to convert every token to an integer ends after the 15th itteration. 
             - Strangely after the 15th itteration the next line of code doesnt execute. Furthermore the next line in the function that calls `int_array()` (which is `processor()`) also doesn't execute.
-            - The perror in main() will still execute stating the program exitted successfully.
+            - The perror in main() will still execute stating the program exited successfully.
