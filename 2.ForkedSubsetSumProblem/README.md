@@ -10,8 +10,11 @@ Timed interrupt for children = 2 seconds
 1. Use given code to create subset sum table of 0s and 1s
 2. From that table, create a mirrored table of 0s, 1s, and 2s
     - Where elements with the value 2 will sum to the number we are looking for.
+    
  Resouces:
+ 
  ![Code examples](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
+ 
  ![Youtube walkthrough](https://www.youtube.com/watch?v=s6FhG--P7z0)
   
 
