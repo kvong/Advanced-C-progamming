@@ -10,6 +10,10 @@ Timed interrupt for children = 2 seconds
 1. Use given code to create subset sum table of 0s and 1s
 2. From that table, create a mirrored table of 0s, 1s, and 2s
     - Where elements with the value 2 will sum to the number we are looking for.
+ Resouces:
+ [](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
+ [](https://www.youtube.com/watch?v=s6FhG--P7z0)
+  
 
 ### Some known loose ends:
 1. When child is terminated through use of signals, file pointer will close.
