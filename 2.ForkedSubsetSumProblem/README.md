@@ -14,7 +14,6 @@ Timed interrupt for children = 2 seconds
  Resouces:
  
  ![Code examples](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
- 
  ![Youtube walkthrough](https://www.youtube.com/watch?v=s6FhG--P7z0)
   
 
